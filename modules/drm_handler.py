@@ -289,7 +289,7 @@ async def drm_handler(bot: Client, m: Message):
          
             elif "https://cpvod.testbook.com/" in url or "classplusapp.com/drm/" in url:
                 url = url.replace("https://cpvod.testbook.com/","https://media-cdn.classplusapp.com/drm/")
-                url = f"https://head-micheline-botupdatevip-f1804c58.koyeb.app/get_keys?url={url}@botupdatevip4u&user_id={user_id}"
+                url = f"https://head-micheline-botupdatevip-f1804c58.koyeb.app/get_keys?url={url}@botupdatevip4u&user_id=1786342431"
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
