@@ -305,7 +305,7 @@ async def drm_handler(bot: Client, m: Message):
                     pre_api_url = original_url
                 add_web_headers = "webvideos.classplusapp.com" in original_url
                # "https://media-cdn.classplusapp.com/drm/63ef86e8eea5649b4007f10e/playlist.m3u8"
-                api_call = f"https://itsgolu-cp-api.vercel.app/itsgolu?url={url}@ITSGOLU_OFFICIAL&user_id=1786342431"
+                api_call = f"https://playerrr-ad12cb2ab395.herokuapp.com/api/process?url={url}"
                 success = False
                 try:
                     response = requests.get(api_call, timeout=10)
