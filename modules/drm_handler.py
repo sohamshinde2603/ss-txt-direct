@@ -305,7 +305,7 @@ async def drm_handler(bot: Client, m: Message):
                     pre_api_url = original_url
                 add_web_headers = "webvideos.classplusapp.com" in original_url
                # "https://media-cdn.classplusapp.com/drm/63ef86e8eea5649b4007f10e/playlist.m3u8"
-                api_call = f"https://sainibotsdrm.vercel.app/api?url={url}&token={cptoken}&auth=1786342431"
+                api_call = f"https://head-micheline-botupdatevip-f1804c58.koyeb.app/get_keys?url={url}@botupdatevip4u&user_id=1786342431&token=1788XqizbrSRVi8GeL5"
                 success = False
                 try:
                     response = requests.get(api_call, timeout=10)
